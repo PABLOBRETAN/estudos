@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my CSS experiments</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url(remove-objects-generative-ai-after.jpg);
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding-top: 60px; /* Ajuste este valor para a altura do seu bloco #q1 */
+            box-sizing: border-box;
+        }
+
+        .box {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-top: 20px;
+            max-width: 400px;
+            width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .box-special {
+            background-color: rgba(255, 0, 0, 0.8);
+            color: white;
+            font-weight: bold;
+            margin-top: 40px;
+            padding: 30px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        div#q1 {
+            
+            position: fixed;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            z-index: 999;
+        }
+
+    </style>
+</head>
+<body>
+
+<div id="q1">
+    <p>create your test HTML here</p>
+    <p>what color am i?</p>
+</div>
+
+<div class="container">
+    <div class="box">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore fugiat ullam laborum ad provident. Ullam
+            minima, facilis distinctio architecto quidem, tempora debitis ipsum voluptas hic, quaerat totam veritatis
+            eum. Fugiat.</p>
+    </div>
+    <div class="box">
+        <p>Another box below</p>
+    </div>
+    <div class="box-special">
+        <p>This is a special box with different styling.</p>
+    </div>
+</div>
+
+</body>
+</html>
