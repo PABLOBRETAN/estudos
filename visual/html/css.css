@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; /* Empilha os elementos na vertical */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: flex-start; /* Mantém os elementos no topo */
+    height: 100vh; /* Ocupa toda a altura da tela */
+    margin: 0; /* Remove margens padrão */
+    padding-top: 20px; /* Adiciona um pequeno espaço no topo */
+}
+
+.caixa {
+    width: fit-content; /* Ajusta ao tamanho do conteúdo */
+    padding: 10px 20px; /* Espaçamento interno */
+    background-color: lightgray; /* Cor de fundo */
+    border: 2px solid black; /* Borda preta */
+    border-radius: 10px; /* Cantos arredondados */
+    text-align: center; /* Centraliza o texto dentro da caixa */
+}
+
+h1 {
+    margin: 0; /* Remove margens padrão */
+}
+
+p {
+    margin-top: 10px; /* Espaço entre a caixa e o parágrafo */
+    width: 80%; /* Define uma largura para melhorar a leitura */
+    text-align: center; /* Centraliza o texto */
+}
